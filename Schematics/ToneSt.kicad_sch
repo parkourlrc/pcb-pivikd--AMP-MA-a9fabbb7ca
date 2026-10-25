@@ -1963,7 +1963,6 @@
 	(symbol
 		(lib_id "Jumper:SolderJumper_3_Open")
 		(at 59.69 60.96 270)
-		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1973,7 +1972,7 @@
 		(dnp no)
 		(uuid "17d1f400-8c26-4c8d-ba04-a0381bf2cb4b")
 		(property "Reference" "JP50"
-			(at 62.23 60.9599 90)
+			(at 62.23 60.9601 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1984,7 +1983,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_3_Open"
-			(at 62.23 62.2299 90)
+			(at 62.23 59.6901 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2230,6 +2229,7 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 95.25 67.31 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2239,7 +2239,7 @@
 		(dnp no)
 		(uuid "31a0f8ae-cb55-4d29-bad2-667e885a2805")
 		(property "Reference" "Treble1"
-			(at 93.98 66.04 0)
+			(at 93.98 68.58 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -2250,7 +2250,7 @@
 			)
 		)
 		(property "Value" "Treble"
-			(at 93.726 68.326 0)
+			(at 93.726 66.294 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2944,8 +2944,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 123.19 30.48 0)
-		(mirror y)
+		(at 123.19 30.48 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2955,7 +2954,7 @@
 		(dnp no)
 		(uuid "85cbdee5-f4a2-485c-825f-6f3068cdd2d6")
 		(property "Reference" "Bass1"
-			(at 124.46 29.21 0)
+			(at 124.46 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2966,7 +2965,7 @@
 			)
 		)
 		(property "Value" "Bass"
-			(at 124.714 31.496 0)
+			(at 124.714 29.464 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
