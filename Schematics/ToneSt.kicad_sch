@@ -3,7 +3,13 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "f65c523b-2842-4123-b9f9-c3c89ecfc0d0")
-	(paper "A4")
+	(paper "A5")
+	(title_block
+		(title "AMP-MA Tone Stack part")
+		(rev "10.2026")
+		(company "Copyright (c) 2026 Pyvovarov Dannylo")
+		(comment 1 "License: CERN-OHL-S-2.0")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers

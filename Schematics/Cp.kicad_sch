@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "f65c523b-2842-4123-b9f9-c3c89ecfc0d0")
 	(paper "A4")
+	(title_block
+		(title "AMP-MA Compressor and bypass part")
+		(rev "10.26")
+		(company "Copyright (c) 2026 Pyvovarov Dannylo")
+		(comment 1 "License: CERN-OHL-S-2.0")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:CA3080"
 			(pin_names
@@ -2969,7 +2975,7 @@
 		)
 		(uuid "2b84caa8-2bd3-402f-a159-94f0b4bfa724")
 	)
-	(text "Where is my mind\n"
+	(text "Compressor\n"
 		(exclude_from_sim no)
 		(at 48.768 22.098 0)
 		(effects

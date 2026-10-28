@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "4094031b-a9da-4ac5-aaa1-42b342c92a3e")
 	(paper "A4")
+	(title_block
+		(title "AMP-MA Main part")
+		(rev "10.26")
+		(company "Copyright (c) 2026 Pyvovarov Dannylo")
+		(comment 1 "License: CERN-OHL-S-2.0")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Audio:LM1875"
 			(pin_names
@@ -12331,4 +12337,24 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "0.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WBVCEUUAHbeXyEA1TZqxSYpSnAbOsWn6twEMASOQCUzJ844nImoqtoBwgRVAE8AWQD/+CPx
+				dzg2T9rXcrI3an7jYnVRa3bnQyvya8Xqsmh7yZY/8icAAAES9F5Oa1JKQ2X8NnSNSFKd8XvZr3MI
+				gECFUUoNdda+2JbZQwRAoPyINKEH2g8hVP/I//trGq7a8wpUpFEGr+33nPSe2W/G4Is9e1IfEItf
+				u/j22zvf4QXh7DXVf30cMTjntGrXDq/XOqd11c6wzMom7c/elxTVPnr3Qc8jDvjrQ+UwWyXkFQyj
+				+kGtQ2eTSiacpbJhNAxtwT1Mg8u6rKsnpZmF6AR22jqNodkuFgtnGrTC32PknEnZ/zrYpI39EuS5
+				alONVK+e3/dNaiAALt7QvmqXmKRogQpRETXLpoF2ki1Cuh454sWsGYlGiUwWCUenUbptc1gwzGAd
+				Ippkg3AN2wCt6L3tqnZNWJNukI7rxLddpZWGtt+9YxEUToKQo/q9MeNNZyc9SmWjaJSStYRib6DB
+				RKgYmhJJkhQyzAFgRIQG6TahJwscZxrbXkGNk69HLnYxPVN4SBBH3HNAGkdrbFe37ZFtlnXjX5kg
+				zDnL2qonRpnBBwrv1bFWZi1xWyJL8ArzVHwsU3joEp6iASaCaAdw23GldVdlgVhlaQnBLugrUgSI
+				QZmJAKyc8wGIfgyWEuCSBYsk7zNK7HSFAbc9bNRT9iFgYoOeR+8bQ2940MusKR/Xm0lIEcJPgjed
+				RPOXUw5eE7hz3F6bd0uAb9nQMo+OXJGgtZnVGP9wca8QikZM/MZn3vxRMZleK1Bcj7ponXTsN7Z3
+				LSs6tFkQ8EcVdnZG0X5ZMVmrKTThXfEf77qJw/gwVQ==|
+			)
+			(checksum "523C7F38F777A6C28CBED3E64D1CB148")
+		)
+	)
 )
