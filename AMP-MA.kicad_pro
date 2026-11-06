@@ -89,9 +89,9 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "border_display_style": 2,
+          "border_display_style": 1,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 1.0,
+          "corner_radius": 0.5,
           "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
@@ -99,11 +99,11 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.4,
+          "min_clearance": 0.8,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 2,
-          "remove_islands": 0,
+          "pad_connection": 0,
+          "remove_islands": 1,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -115,12 +115,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "nonmirrored_text_on_back_layer|215365000|55270000|f0395c72-dcdc-4abc-aba5-b2bec86e1f27|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -166,7 +161,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
-        "silk_overlap": "ignore",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -655,6 +650,16 @@
         "via_drill": 0.6
       },
       {
+        "name": "VA",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.35,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
         "clearance": 0.25,
         "name": "VB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
@@ -675,16 +680,6 @@
         "tuning_profile": "",
         "via_diameter": 0.8,
         "via_drill": 0.4
-      },
-      {
-        "name": "VMu",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.35,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
       }
     ],
     "meta": {
@@ -694,8 +689,8 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "VMu",
-        "pattern": "VMu"
+        "netclass": "VA",
+        "pattern": "VA"
       },
       {
         "netclass": "HV",
@@ -815,7 +810,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "/home/pivik/Pictures/Kicad/PCB/",
+      "plot": "../../../Pictures/Kicad/PCB/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -958,6 +953,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "kicad-embed://0.kicad_wks",
     "plot_directory": "",
     "reuse_designators": true,
@@ -970,7 +973,7 @@
         "uuid": "4094031b-a9da-4ac5-aaa1-42b342c92a3e"
       }
     ],
-    "used_designators": "Bass1-2,Bass50,Sustain1-2,RV2,RV50-51,SW1,SW3,Middle1-2,Middle50,H1-3,J1-9,JP52D50,C9,C18-19,C24-27,C32,C37-46,C50-55,C57-59,C64-66,D2,D5-11,D30,D33-34,U2,U5-6,GND1,#PWR2,#PWR5,#PWR8-9,#PWR13,#PWR25-30,#PWR32-33,#PWR41,#PWR47,#PWR51-67,T50,Q9-16,Q40-42,Treble1-2,Treble50,JP52.D50,LEVEL1-2,LEVEL40-41,CE9-11,JP40,JP50-57,R8-9,R23-24,R27,R41-59,R65-67",
+    "used_designators": "RV2,RV50-51,Bass1-2,Bass50,Sustain1-2,Treble1-2,Treble50,Q2-3,Q9-16,Q40-42,SW1,SW3,D2,D5-11,D30,D33-34,U2,U5-6,Middle1-2,Middle50,GND1-2,#PWR2,#PWR5,#PWR8-9,#PWR11,#PWR13,#PWR23,#PWR25-30,#PWR32-33,#PWR35-36,#PWR41-43,#PWR47,#PWR51-67,T50,H1-3,VOL3,JP52D50,J1-9,R8-9,R13-14,R19-24,R27,R41-59,R65-67,JP40,JP50-57,C9,C14-15,C17-19,C24-27,C32,C36-46,C50-55,C57-59,C64-66,IN3,LEVEL1-2,LEVEL40-41,CE9-11,JP52.D50",
     "variants": []
   },
   "sheets": [

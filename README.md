@@ -8,15 +8,15 @@
 
 # Project Status
 
-   **AMP-AM is currently in the early development phase and is considered unstable. The first stable release is scheduled for Q4 2026**
+   **AMP-MA is currently in the early development phase and is considered unstable. The first stable release is scheduled for Q4 2026**
    
    **The project is currently in the pre-alpha stage – creating the first prototype**
 
-# AMP-AM (AMP Modus Aequale)
+# AMP-MA (AMP Modus Aequale)
 
-AMP-AM (standing for Modus Aequale, signifying a rhythmic, ideal tone and modular structure) is an open-source, transistor-based guitar combo amplifier project. It is designed to bridge the gap between solid-state reliability and the organic, harmonic richness of vacuum tube sound.
+AMP-MA (standing for Modus Aequale, signifying a rhythmic, ideal tone and modular structure) is an open-source, transistor-based guitar combo amplifier project. It is designed to bridge the gap between solid-state reliability and the organic, harmonic richness of vacuum tube sound.
 
-The project focuses on a modular architecture, originally developed as a high-fidelity upgrade for the **Epiphone 15C** PCB. By utilizing independent blocks, AMP-AM allows for seamless customization and easier adaptation to various amp enclosures.
+The project focuses on a modular architecture, originally developed as a high-fidelity upgrade for the **Epiphone 15C** PCB. By utilizing independent blocks, AMP-MA allows for seamless customization and easier adaptation to various amp enclosures.
 
 This project is designed and maintained by: [Danylo Pyvovarov](https://github.com/pivikd).
 
